@@ -1,0 +1,16 @@
+ENVI
+description = {
+  Matched Filter Results}
+samples = 1242
+lines = 1280
+bands = 1
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bil
+sensor type = unknown
+byte order = 0
+file_type = ENVI Standard
+band names = Matched Filter
+z plot range = {0, 1500}
+data ignore value = -9999
