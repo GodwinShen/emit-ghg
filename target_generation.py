@@ -146,8 +146,10 @@ def load_ch4_dataset():
     # if correcthash != filehash:
     #     raise RuntimeError('Dataset file is invalid.')
     # datafile = np.load(filename)
-    datafile = h5py.File('test/dataset_ch4_full.hdf5', 'r', rdcc_nbytes=4194304) # gshen: put relative path here so that we can reference it directly within the app package.  this is going to make the app package docker container quite large!
-    #datafile = h5py.File('/beegfs/scratch/jchapman/CO2CH4TargetGen/dataset_ch4_full.hdf5', 'r', rdcc_nbytes=4194304)
+    try:
+        datafile = h5py.File('/beegfs/scratch/jchapman/CO2CH4TargetGen/dataset_ch4_full.hdf5', 'r', rdcc_nbytes=4194304)
+    except:
+        datafile = h5py.File('test/dataset_ch4/dataset_ch4_full.hdf5', 'r', rdcc_nbytes=4194304) # gshen: put relative path here so that we can reference it directly within the app package.  this is going to make the app package docker container quite large!
     return datafile['modtran_data'], datafile['modtran_param'], datafile['wave'], 'ch4'
 
 
