@@ -1,21 +1,21 @@
 {
-    stage_in: {
-	stac_json: 'https://github.com/GodwinShen/emit-ghg/blob/main/test/stage_in/catalog.json', 
-        downloading_roles: '', 
-        downloading_keys: 'data', #key under "assets" in the stage_in_results.json
-        download_type: 'HTTP',
-        edl_username: None,
-        edl_password_type: '',
-        edl_password: '',
-        unity_client_id: '',
-        unity_stac_auth: 'NONE'
+    "stage_in": {
+        "stac_json": "https://github.com/GodwinShen/emit-ghg/blob/main/test/catalog.json", 
+        "downloading_roles": "", 
+        "downloading_keys": "data",
+        "download_type": "HTTP",
+        "edl_username": "None",
+        "edl_password_type": "",
+        "edl_password": "",
+        "unity_client_id": "",
+        "unity_stac_auth": "NONE"
     },
-    parameters: {
-        output_collection: 'urn:nasa:unity:unity:test:emit_ghg_test___1',
+    "parameters": {
+        "output_collection": "urn:nasa:unity:unity:test:emit_ghg_test___1"
     },
-    stage_out: { 
-        staging_bucket: 'unity-test-unity-storage',
-        collection_id: 'urn:nasa:unity:unity:test:emit_ghg_test___1',
-        result_path_prefix: 'stage_out'
+    "stage_out": { 
+        "staging_bucket": "unity-test-unity-storage",
+        "collection_id": "urn:nasa:unity:unity:test:emit_ghg_test___1",
+        "result_path_prefix": "stage_out"
     }
 }

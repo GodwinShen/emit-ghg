@@ -65,12 +65,25 @@
         }
       ],
       "assets": {
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov:443/search/concepts/G2721220118-LPCLOUD.xml",
+          "type": "application/xml"
+        },
+        "browse": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/EMITL1BRAD.001/EMIT_L1B_RAD_001_20230620T084426_2317106_011/EMIT_L1B_RAD_001_20230620T084426_2317106_011.png",
+          "type": "image/png",
+          "title": "Download EMIT_L1B_RAD_001_20230620T084426_2317106_011.png"
+        },
+        "opendap": {
+          "href": "https://opendap.earthdata.nasa.gov/collections/C2408009906-LPCLOUD/granules/EMIT_L1B_RAD_001_20230620T084426_2317106_011",
+          "title": "OPeNDAP request URL"
+        },
         "data": {
-          "href": "/unity/ads/input_collections/EMIT_TEST/EMIT_L1B/EMIT_L1B_RAD_001_20230620T084426_2317106_011.nc",
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL1BRAD.001/EMIT_L1B_RAD_001_20230620T084426_2317106_011/EMIT_L1B_RAD_001_20230620T084426_2317106_011.nc",
           "title": "Download EMIT_L1B_RAD_001_20230620T084426_2317106_011.nc"
         },
         "data1": {
-          "href": "/unity/ads/input_collections/EMIT_TEST/EMIT_L1B/EMIT_L1B_OBS_001_20230620T084426_2317106_011.nc",
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL1BRAD.001/EMIT_L1B_RAD_001_20230620T084426_2317106_011/EMIT_L1B_OBS_001_20230620T084426_2317106_011.nc",
           "title": "Download EMIT_L1B_OBS_001_20230620T084426_2317106_011.nc"
         }
       },
@@ -149,16 +162,29 @@
         }
       ],
       "assets": {
+        "metadata": {
+          "href": "https://cmr.earthdata.nasa.gov:443/search/concepts/G2721699381-LPCLOUD.xml",
+          "type": "application/xml"
+        },
+        "browse": {
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-public/EMITL2ARFL.001/EMIT_L2A_RFL_001_20230620T084426_2317106_011/EMIT_L2A_RFL_001_20230620T084426_2317106_011.png",
+          "type": "image/png",
+          "title": "Download EMIT_L2A_RFL_001_20230620T084426_2317106_011.png"
+        },
+        "opendap": {
+          "href": "https://opendap.earthdata.nasa.gov/collections/C2408750690-LPCLOUD/granules/EMIT_L2A_RFL_001_20230620T084426_2317106_011",
+          "title": "OPeNDAP request URL"
+        },
         "data": {
-          "href": "/unity/ads/input_collections/EMIT_TEST/EMIT_L2A/EMIT_L2A_RFL_001_20230620T084426_2317106_011.nc",
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.001/EMIT_L2A_RFL_001_20230620T084426_2317106_011/EMIT_L2A_RFL_001_20230620T084426_2317106_011.nc",
           "title": "Download EMIT_L2A_RFL_001_20230620T084426_2317106_011.nc"
         },
         "data1": {
-          "href": "/unity/ads/input_collections/EMIT_TEST/EMIT_L2A/EMIT_L2A_RFLUNCERT_001_20230620T084426_2317106_011.nc",
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.001/EMIT_L2A_RFL_001_20230620T084426_2317106_011/EMIT_L2A_RFLUNCERT_001_20230620T084426_2317106_011.nc",
           "title": "Download EMIT_L2A_RFLUNCERT_001_20230620T084426_2317106_011.nc"
         },
         "data2": {
-          "href": "/unity/ads/input_collections/EMIT_TEST/EMIT_L2A/EMIT_L2A_MASK_001_20230620T084426_2317106_011.nc",
+          "href": "https://data.lpdaac.earthdatacloud.nasa.gov/lp-prod-protected/EMITL2ARFL.001/EMIT_L2A_RFL_001_20230620T084426_2317106_011/EMIT_L2A_MASK_001_20230620T084426_2317106_011.nc",
           "title": "Download EMIT_L2A_MASK_001_20230620T084426_2317106_011.nc"
         }
       },
