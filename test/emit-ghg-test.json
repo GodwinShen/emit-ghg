@@ -2,7 +2,7 @@
     "stage_in": {
         "stac_json": "https://raw.githubusercontent.com/GodwinShen/emit-ghg/main/test/catalog.json", 
         "downloading_roles": "", 
-        "downloading_keys": "data",
+        "downloading_keys": "data, data1, data2",
         "download_type": "DAAC",
         "edl_username": "/sps/processing/workflows/edl_username",
         "edl_password_type": "PARAM_STORE",
