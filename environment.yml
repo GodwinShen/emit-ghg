@@ -364,6 +364,7 @@ dependencies:
     - openpyxl==3.1.2
     - opt-einsum==3.3.0
     - pandas==2.0.3
+    - papermill
     - parse==1.19.1
     - pillow==10.0.0
     - prometheus-client==0.14.1
@@ -426,7 +427,7 @@ dependencies:
     - tornado==6.3.2
     - traitlets==5.7.1
     - typing-extensions==4.5.0
-    - unity-sds-client==0.2.1
+    - unity-sds-client==0.3.0
     - ukkonen==1.0.1
     - unicodedata2==15.0.0
     - uritemplate==4.1.1
