@@ -11,11 +11,11 @@
         "unity_stac_auth": "NONE"
     },
     "parameters": {
-        "output_collection": "urn:nasa:unity:emit:dev:emit_ghg_test___1"
+        "output_collection": "urn:nasa:unity:unity:dev:emit_ghg_test___1"
     },
     "stage_out": { 
         "staging_bucket": "sps-unity-dev-ds-storage",
-        "collection_id": "urn:nasa:unity:emit:dev:emit_ghg_test___1",
+        "collection_id": "urn:nasa:unity:unity:dev:emit_ghg_test___1",
         "result_path_prefix": "stage_out"
     }
 }
