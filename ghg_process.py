@@ -187,11 +187,11 @@ def main(input_args=None):
     #    subprocess.call(f'python apply_glt.py {args.glt_file} {ch4_mf_refined_file} {ch4_mf_refined_ort_file}',shell=True)
 
     # 20241003 gshen: skip this code path for now so it doesn't crap out
-    if False:
-        if (os.path.isfile(co2_mf_ort_file) is False or args.overwrite) and args.co2:
-            subprocess.call(f'python apply_glt.py {args.glt_file} {co2_mf_file} {co2_mf_ort_file}',shell=True)
-        if os.path.isfile(ch4_mf_ort_file) is False or args.overwrite:
-            subprocess.call(f'python apply_glt.py {args.glt_file} {ch4_mf_file} {ch4_mf_ort_file}',shell=True)
+    #if False:
+    #    if (os.path.isfile(co2_mf_ort_file) is False or args.overwrite) and args.co2:
+    #        subprocess.call(f'python apply_glt.py {args.glt_file} {co2_mf_file} {co2_mf_ort_file}',shell=True)
+    #    if os.path.isfile(ch4_mf_ort_file) is False or args.overwrite:
+    #        subprocess.call(f'python apply_glt.py {args.glt_file} {ch4_mf_file} {ch4_mf_ort_file}',shell=True)
     
     
     #if os.path.isfile(ch4_mf_refined_scaled_ort_file) is False or args.overwrite:
